@@ -23,32 +23,32 @@
 <body>
     <header>
         <div id="navbar-left">
-            <img src="img/logo_dark.png" id="logo">
-            <a id="home"> Accueil </a>
+            <a href="index.html"><img src="img/logo_dark.png" id="logo"></a>
+            <a href="index.html" home"> Accueil </a>
         </div>
         <div id="center">
             <form id="search">
-                <input id="searchbar" type="text" placeholder="Recherche">
+                <input id="searchbar" type="text" placeholder="@Post">
                 <button id="searchbutton">🔍</button>
             </form>
         </div>
         <div id="navbar-right">
-            <a id="post"> Poster </a>
-            <a id="profile"> Profil </a>
+            <a href="post.html" id="post"> Poster </a>
+            <a href="user.html" id="profile"> Profil </a>
         </div>
     </header>
 
     <div id="content">
         <article class="meme-big">
             <div class="meme-big-left">
-                <img src="http://placekitten.com/500/500">
+                <a href="meme.html"><img class="meme" src="http://placekitten.com/500/500"></a>
             </div>
             <div class="meme-big-right">
-                <span class="username"> Utilisateur </span>
+                <span class="username"><a href="user.html"> Utilisateur </a></span>
                 <p class="description">Description</p>
                 <div class="actions">
                     <span class="like">Aimer</span>
-                    <span class="repost">Reposter</span>
+                    <span class="repost"><a href="post.html">Reposter</a></span>
                 </div>
                 <p class="likes">Aimé par</p>
                 <div class="comments">
